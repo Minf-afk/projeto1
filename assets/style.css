@@ -1,65 +1,92 @@
-html{
-    margin-top: 8rem;
+html {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  margin-top: 8rem;
 }
-body{
-    background-color:blanchedalmond;
-    display: flex;
-    justify-content: center;
+body {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
 }
-h1{
-    margin: 0.75rem;
+h1 {
+  font-weight: 900;
+  margin: 0.75rem;
 }
-.info-box{
-    width: 20em;
-    height: 22em;
-    margin: 0.25rem;
-    border: 2px solid rgb(96 139 168);
-    border-radius: 1rem;
-    padding: 0;  
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;    
-    background-color: aliceblue;
-    flex-wrap: wrap; 
+.info-box {
+  width: 20em;
+  height: 22em;
+  margin: 0.25rem;
+  border: 2px solid rgb(96 139 168);
+  border-radius: 1rem;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: aliceblue;
+  flex-wrap: wrap;
 }
-.name{
-    color: #000;
-    font-size: 18px;
-    align-self: flex-start;
-    margin-left: 1.5rem;
-    margin-bottom: 0.5rem;
+.name {
+  color: #000;
+  font-weight: 100;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
 }
-#name{
-    color: #000;
-    font-size: 15px;
-    align-self: center;
+#name {
+  color: #000;
+  font-size: 15px;
+  align-self: center;
+  border-radius: 0.25rem;
+  border-color: rgb(115, 115, 224);
 }
-.email{
-    color: #000;
-    font-size: 18px;
-    align-self: flex-start;
-    margin-left: 1.5rem;
-    margin-bottom: 0.5rem;
+.email {
+  color: #000;
+  font-weight: 100;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
 }
-#email{
-    color: #000;
-    font-size: 15px;
-    align-self: center;
+#email {
+  color: #000;
+  font-size: 15px;
+  align-self: center;
+  border-radius: 0.25rem;
+  border-color: rgb(115, 115, 224);
 }
-.password{
-    color: #000;
-    font-size: 18px;
-    align-self: flex-start;
-    margin-left: 1.5rem;
-    margin-bottom: 0.5rem;
+.password {
+  color: #000;
+  font-weight: 100;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
 }
-#password{
-    color: #000;
-    font-size: 15px;
-    align-self: center;
+#password {
+  color: #000;
+  font-size: 15px;
+  align-self: center;
+  border-radius: 0.25rem;
+  border-color: rgb(115, 115, 224);
 }
-.cadastro{
-    display: flex;
-    align-self: center;
-    margin-top: -10px;
+.cadastro {
+  display: flex;
+  align-self: center;
+  margin-top: -10px;
+}
+.button {
+  background: none rgb(115, 115, 224);
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+.button:hover {
+  background: #016abc;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
 }
