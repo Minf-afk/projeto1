@@ -1,18 +1,13 @@
-*{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
 html{
     margin-top: 8rem;
 }
 body{
     background-color:blanchedalmond;
-    margin: 1rem;
     display: flex;
-    align-items: center;
-    align-content: center;
     justify-content: center;
+}
+h1{
+    margin: 0.75rem;
 }
 .info-box{
     width: 20em;
@@ -22,14 +17,49 @@ body{
     border-radius: 1rem;
     padding: 0;  
     display: flex;
-    flex-direction: column;
-    align-items: center; 
-    align-content: center;
-    background-color: aliceblue; 
+    align-items: flex-start;
+    flex-direction: column;    
+    background-color: aliceblue;
+    flex-wrap: wrap; 
 }
 .name{
-    font-size: 25px;
+    color: #000;
+    font-size: 18px;
+    align-self: flex-start;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 #name{
-    font-size: medium;
+    color: #000;
+    font-size: 15px;
+    align-self: center;
+}
+.email{
+    color: #000;
+    font-size: 18px;
+    align-self: flex-start;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+#email{
+    color: #000;
+    font-size: 15px;
+    align-self: center;
+}
+.password{
+    color: #000;
+    font-size: 18px;
+    align-self: flex-start;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+#password{
+    color: #000;
+    font-size: 15px;
+    align-self: center;
+}
+.cadastro{
+    display: flex;
+    align-self: center;
+    margin-top: -10px;
 }
