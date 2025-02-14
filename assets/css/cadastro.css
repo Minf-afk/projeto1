@@ -1,13 +1,55 @@
 html {
     font-family: "Atkinson Hyperlegible Next", serif;
     margin-top: 5rem;
-  }
-  body {
+}
+
+body {
     background-color: rgb(116, 119, 209);
     display: flex;
     justify-content: center;
-  }
-  h1 {
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
     font-weight: 900;
     margin: 0.75rem;
-  }
+    color: #000;
+}
+
+#user-table-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
