@@ -1,0 +1,13 @@
+html {
+    font-family: "Atkinson Hyperlegible Next", serif;
+    margin-top: 5rem;
+  }
+  body {
+    background-color: rgb(116, 119, 209);
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-weight: 900;
+    margin: 0.75rem;
+  }
